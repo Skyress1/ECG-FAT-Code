@@ -1,1 +1,11 @@
 # ECG-FAT-Code
+Code for our paper "Mitigating Adversarial Attacks on ECG Classification in Federated Learning via Adversarial Training", Artificial Intelligence Theory and Applications.
+
+Paper Link: https://dergipark.org.tr/en/pub/aita/issue/91726/1597441
+
+### Abstract:
+Federated Learning (FL) has become an important research area in recent years, particularly when dealing with sensitive data such as healthcare information. Since healthcare data contains critical and personal information, FL provides a major advantage by enabling training on local devices without requiring data to be collected on a central server. In the analysis of healthcare data, such as electrocardiography (ECG), FL enables local processing of data while preserving privacy. However, despite its privacy benefits, FL can be vulnerable to attacks. Malicious inputs aim to degrade model accuracy, known as adversarial attacks (AA), can pose a major threat. Adversarial Training (AT) offers a defense mechanism by increasing model’s robustness against such attacks. Federated Adversarial Training (FAT) extends AT into the FL environment, combining privacy advantages with enhanced resistance to adversarial inputs. In this work, we propose the use of FAT to improve both privacy and security when classifying ECG signals, ensuring robustness against AAs. This approach involves applying AT at the client level by augmenting clean ECG data with adversarial examples generated using the Projected Gradient Descent (PGD) method. A Convolutional Neural Network (CNN) architecture was employed for local training. Experiments are conducted on the MIT-BIH Arrhythmia Database (MIT-DB). For comparison, we also trained an FL model without incorporating FAT. Both models were tested on the original test data as well as on adversarially attacked versions generated using PGD, Fast Gradient Sign Method (FGSM), Carlini & Wagner (CW), and Basic Iterative Method (BIM). The results show that the FL system with FAT significantly outperforms the system without FAT in resisting AAs, with a slight compromise in performance on the original test data, thus highlighting the effectiveness of FAT in enhancing model robustness against AAs for ECG classification tasks. Code is available at https://github.com/Skyress1/ECG-FAT-Code.
+
+### Authors
+* Eyüpcan Çelik
+* Prof. Dr. Mehmet Kemal Güllü
