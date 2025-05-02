@@ -2,6 +2,7 @@
 Code for our paper "Mitigating Adversarial Attacks on ECG Classification in Federated Learning via Adversarial Training", Artificial Intelligence Theory and Applications.
 
 Paper Link: https://dergipark.org.tr/en/pub/aita/issue/91726/1597441
+
 Python Version: 3.8.10
 
 ### Abstract:
